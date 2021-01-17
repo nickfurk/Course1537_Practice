@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice Form</title>
+</head>
+<body>
+    <h2>HTML Practice Form for Web Dev Course</h2>
+    <form action="">
+        <fieldset>
+            <legend>User Login Information</legend>
+            <input type="text" id="name" name="name" placeholder="Name">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <input type="password" id="password" name="password" placeholder="Password">
+        </fieldset>
+        <fieldset>
+            <legend>Profile Information</legend>
+            <input type="checkbox" id="happy" name="happy">
+            <label>Happy?</label>
+            <br>
+            <label>Rate your interest in tea.</label>
+            <input type="radio" id="choice1" name="tea" value="None" checked="checked">
+            <input type="radio" id="choice2" name="tea" value="Slim">
+            <input type="radio" id="choice3" name="tea" value="Moderate">
+            <input type="radio" id="choice4" name="tea" value="Really enjoy">
+            <input type="radio" id="choice5" name="tea" value="Addicted">
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label>Favorite color:</label>
+            <input type="color" id="color" name="color" value="#abbbbac">
+            <label>DOB:</label>
+            <input type="date" id="date" name="name">
+            <label>Favorite month:</label>
+            <input type="month" id="month" name="month">
+            <label>Age:</label>
+            <input type="number" min=18 max=200 type="number" id="age" name="age" value="19">
+            <select size="1" id="experience" name="experience">
+                <option value="newcomer" selected="selected">Newcomer</option>
+                <option value="semi-experienced">Semi-experienced</option>
+                <option value="advanced">Advanced</option>
+            </select>
+            <select size="3" id="languagetype" name="languagetype" >
+                <option value="CSS">CSS</option>
+                <option value="C#">C#</option>
+                <option value="HTML">HTML</option>
+                <option value="Java">Java</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="XML">XML</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Review</legend>
+            <label>Upload Comment File:</label>
+            <input type="file" id="uploadcomment" name="uploadcomment" placeholder="Choose Files">
+        </fieldset>
+        <fieldset>
+            <legend>Submission</legend>
+            <input type="submit" id="submit" name="submit" placeholder= "Submit">
+            <input type="image" src="../Course1537_Practice/Images/folder-icon.jpg" >
+            <input type="reset" id="reset" name="reset" placeholder= "Reset">
+            <input type="button" id="calculatetotal" name="calculatetotal" value= "Calculate Total">
+        </fieldset>
+    </form>
+</body>
+</html>
